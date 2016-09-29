@@ -1,0 +1,139 @@
+@media screen and (max-width: 768px) {
+  .container {
+    padding: 30px; }
+
+  header {
+    padding-bottom: 60px; }
+
+  nav {
+    padding-bottom: 25px; }
+
+  .nav-list {
+    display: none;
+    width: 25%;
+    text-align: right;
+    padding-right: 25px; }
+
+  .nav-list-item {
+    padding-bottom: 5px; }
+
+  .nav-bar {
+    float: right;
+    display: block;
+    font-size: 24px;
+    color: white; }
+
+  .nav-welcome {
+    font-size: 34px; }
+
+  .nav-meet {
+    font-size: 48px; }
+
+  .nav-button {
+    width: 170px;
+    padding: 15px 0; }
+
+  .cervices-list-item {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #777; }
+    .cervices-list-item:last-child {
+      border-bottom: none; }
+
+  .portfolio-list-item {
+    width: 100%;
+    padding: 20px 0; }
+
+  .portfolio-image {
+    width: 70%; }
+
+  .portfolio-block {
+    width: 70%;
+    margin: 0 auto; }
+
+  .about-list-item {
+    width: 100%;
+    text-align: center; }
+    .about-list-item:nth-child(even) {
+      text-align: center; }
+
+  .about-image {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 50%; }
+
+  .team-list-item {
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #777; }
+
+  .form-part {
+    width: 100%; }
+    .form-part:first-child {
+      margin-right: 0; }
+
+  .container-footer {
+    text-align: center; }
+
+  .footer-text {
+    padding-right: 0;
+    padding-left: 0; }
+
+  .footer-socials {
+    display: block; } }
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 30px 5px; }
+
+  .text-under-header {
+    line-height: 20px; }
+
+  .nav-logo {
+    float: none;
+    text-align: center; }
+
+  .nav-list {
+    float: none;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-right: 0;
+    text-align: center; }
+
+  .nav-list-item {
+    padding-left: 0; }
+
+  .nav-bar {
+    float: none;
+    padding-top: 10px;
+    text-align: center; }
+
+  .cervices-list {
+    padding-top: 10px; }
+
+  .portfolio-image {
+    width: 100%; }
+
+  .portfolio-block {
+    width: 100%;
+    margin: 0 auto; }
+
+  .team-name-post {
+    width: 100%; }
+
+  .container-logo {
+    text-align: center; }
+
+  .logos-link {
+    width: 100%;
+    margin: 14px 0;
+    padding: 0; }
+
+  .logos-image {
+    width: 50%; }
+
+  .contact-input,
+  .contact-textarea {
+    padding: 10px; } }
+
+/*# sourceMappingURL=media.css.map */

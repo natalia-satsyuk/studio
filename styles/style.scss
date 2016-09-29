@@ -1,0 +1,405 @@
+body {
+	font-family: 'montserrat';
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	max-width: 930px;
+	padding: 100px 0;
+	margin: 0 auto;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.margin-center {
+	margin: 0 auto;
+}
+
+.text-header {
+	font-size: 40px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #222;
+}
+
+.text-under-header {
+	font-size: 16px;
+	font-style: italic;
+	color: #777;
+	line-height: 36px;
+}
+
+.text-header-min {
+	font-size: 18px;
+	color: #222;
+	line-height: 36px;
+}
+
+.text-under-header-min {
+	font-size: 14px;
+	line-height: 18px;
+	color: #777;
+}
+
+$logo-color: #FED136;
+
+// HEADER
+
+header {
+	padding: 40px 0 150px;
+	background: url("../images/main.png");
+	background-size: cover;
+}
+
+nav {
+	max-width: 930px;
+	padding: 0 15px;
+	margin: 0 auto;
+	padding-bottom: 190px;
+
+	&:after {
+		content: ".";
+		clear: both;
+		display: block;
+		visibility: hidden;
+		height: 0;
+	}
+}
+
+.nav-logo {
+	float: left;
+}
+
+.nav-logo-link {
+	text-decoration: none;
+	font-size: 26px;
+	color: $logo-color;
+}
+
+.nav-list {
+	float: right;
+} 
+
+.nav-bar {
+	float: right;
+	display: none;
+}
+
+.nav-list-item {
+	display: inline-block;
+	padding-left: 35px;
+}
+
+.nav-list-link {
+	@extend .nav-logo-link;
+	font-size: 14px;
+	color: white;
+	text-transform: uppercase;
+
+	&:hover {
+		color: $logo-color;
+	}
+}
+
+.nav-welcome {
+	font-size: 40px;
+	font-style: italic;
+	color: white;
+}
+
+.nav-meet {
+	padding: 45px 0;
+	font-size: 75px;
+	text-transform: uppercase;
+	color: white;
+}
+
+.nav-button {
+	display: block;
+	width: 240px;
+	padding: 20px 0;
+	background-color: $logo-color;
+	border: none;
+	border-radius: 3px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: white;
+
+	&:hover {
+		box-shadow: 0 0 10px rgba(255,255,255,0.5); 
+	}
+}
+// end of HEADER
+
+// SERVICES
+.cervices-list {
+	padding-top: 30px;
+	font-size: 0;
+}
+
+.cervices-list-item {
+	display: inline-block;
+	width: 33%;
+	padding: 0 21px;
+}
+
+.cervices-pic {
+	display: block;
+	margin: 0 auto;
+}
+// end of SERVICES
+
+// PORTFOLIO
+.portfolio {
+	background-color: #F7F7F7;
+}
+
+.portfolio-list {
+	font-size: 0;
+	text-align: center;
+}
+
+.portfolio-list-item {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	
+}
+
+.portfolio-item-wrap {
+	margin-top: 50px;
+	margin: 15px;
+
+	// &:nth-child(3n+3) {
+	// 	margin-right: 0;
+	// }
+}
+
+.portfolio-image {
+	width: 100%;
+
+	&:hover {
+		box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	}
+}
+
+.portfolio-block {
+	padding: 25px 0;
+	background-color: white;
+}
+
+.portfolio-text {
+	@extend .text-under-header;
+	font-size: 14px;
+	line-height: 14px;
+}
+// end of PORTFOLIO
+
+// ABOUT
+.about-list {
+	margin-bottom: -65px;
+
+	&:after {
+		content: ".";
+		clear: both;
+		display: block;
+		visibility: hidden;
+		height: 0;
+	}
+}
+
+.about-list-item {
+	float: left;
+	width: 62.5%;
+	margin-bottom: 60px;
+	text-align: right;
+
+	&:after {
+		content: ".";
+		clear: both;
+		display: block;
+		visibility: hidden;
+		height: 0;
+	}
+
+	&:first-child {
+		margin-top: 80px;
+	}
+
+	&:nth-child(even) {
+		float: right;
+		text-align: left;
+	}
+}
+
+.about-item-span {
+	text-transform: uppercase;
+}
+
+.about-image {
+	float: right;
+	width: 40%;
+	padding: 0 40px;
+}
+
+.left {
+	float: left;
+}
+
+// end of ABOUT
+
+// TEAM 
+.team {
+	background-color: #F7F7F7;
+}
+
+.team-list {
+	margin: 0 auto;
+	text-align: center;
+	font-size: 0;
+} 
+
+.team-list-item {
+	display: inline-block;
+	width: 33%;
+	padding: 30px 0 10px;
+}
+
+.team-image {
+	width: 75%;
+	border-radius: 15px;
+}
+
+
+.team-name-bold {
+	padding-top: 20px;
+	font-size: 16px;
+	color: #222;
+}
+
+.team-name {
+	font-size: 16px;
+	color: #777;
+	line-height: 24px;
+}
+
+.socials-link {
+	display: inline-block;
+	margin: 5px;
+	font-size: 40px;
+	color: #00ACED;
+
+	&:nth-child(2) {
+		color: #3B5998;
+	}
+
+	&:nth-child(3) {
+		color: #CB2028;
+	}
+}
+
+.team-name-post {
+	width: 70%;
+	margin: 0 auto;
+	padding-top: 30px;
+	text-align: center;
+}	
+// end of TEAM
+
+// LOGOS
+
+.container-logo {
+	@extend .container;
+	padding: 50px 0;
+	text-align: center;
+	font-size: 0;
+}
+
+.logos-link {
+	width: 20%;
+	padding: 20px 0;
+	margin: 0 2%;
+	display: inline-block;
+}
+
+.logos-image {
+	width: 100%;
+	vertical-align: middle;
+}
+// end of LOGOS
+
+// CONTACT 
+.contact {
+	background: url("../images/prefooter.png") center;
+	background-size: cover;
+}
+
+.contact-header {
+	@extend .text-header;
+	color: white;
+}
+
+.contact-form {
+	padding: 60px 20px;
+	text-align: center;
+	font-size: 0;
+}
+
+.form-part {
+	width: 48%;
+	display: inline-block;
+	vertical-align: top;
+
+	&:first-child {
+		margin-right: 25px;
+	}
+}
+
+.contact-input,
+.contact-textarea {
+	width: 100%;
+	padding: 20px;
+	margin-bottom: 22px;
+	background-color: white;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+    font-size: 15px;
+
+	&:hover {
+		box-shadow: 0 0 10px rgba(255,255,255,0.5); 
+	}
+}
+
+// end of CONTACT
+
+// FOOTER
+.container-footer {
+	@extend .container;
+	padding: 35px 0;
+}
+
+.footer-text {
+	display: inline-block;
+	padding-right: 11%;
+	padding-left: 15px;
+	font-size: 14px;
+	color: #555;
+}
+
+.footer-socials {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.socials-link { //from TEAM block
+	
+	&:nth-child(4) {
+		color: #DA2713;
+	}
+}
+// end of FOOTER
