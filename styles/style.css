@@ -39,7 +39,7 @@ body {
 
 header {
   padding: 40px 0 150px;
-  background: url("../images/main.png");
+  background: url("../images/main.jpg");
   background-size: cover; }
 
 nav {
@@ -242,7 +242,7 @@ nav {
   vertical-align: middle; }
 
 .contact {
-  background: url("../images/prefooter.png") center;
+  background: url("../images/prefooter.jpg") center;
   background-size: cover; }
 
 .contact-header {

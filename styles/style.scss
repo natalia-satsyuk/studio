@@ -48,11 +48,10 @@ body {
 
 $logo-color: #FED136;
 
-// HEADER
 
 header {
 	padding: 40px 0 150px;
-	background: url("../images/main.png");
+	background: url("../images/main.jpg");
 	background-size: cover;
 }
 
@@ -174,10 +173,6 @@ nav {
 .portfolio-item-wrap {
 	margin-top: 50px;
 	margin: 15px;
-
-	// &:nth-child(3n+3) {
-	// 	margin-right: 0;
-	// }
 }
 
 .portfolio-image {
@@ -250,7 +245,6 @@ nav {
 .left {
 	float: left;
 }
-
 // end of ABOUT
 
 // TEAM 
@@ -335,7 +329,7 @@ nav {
 
 // CONTACT 
 .contact {
-	background: url("../images/prefooter.png") center;
+	background: url("../images/prefooter.jpg") center;
 	background-size: cover;
 }
 
@@ -374,7 +368,6 @@ nav {
 		box-shadow: 0 0 10px rgba(255,255,255,0.5); 
 	}
 }
-
 // end of CONTACT
 
 // FOOTER
